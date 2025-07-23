@@ -1,7 +1,9 @@
 
 
-
 /*css start from here*/
+body {
+    overflow-x: hidden;
+}
 
 .navbar-section {
     max-width: 1140px;
@@ -101,17 +103,83 @@
 }
 
 
+/*Our plants CARD ITEM*/
 
 
+.our-plants {
+    gap: 20px;
+    max-width: 1140px;
+    margin: 0 auto;
 
+    
+}.our-plants-main-title{
+    margin-bottom: 30px;
+}
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.our-plants-title {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Noto Serif', serif;
+    margin: 0 auto;
+}
 
+.our-plants-paragraph {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    color: #8987A1;
+    max-width: 888px;
+    height: auto;
+    margin-bottom: 40px;
+}
+.our {
+    color: #E95A08;
+}
 
+.card {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.lily {
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #111111;
 
+}
+.usd {
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #111111;
+    font-size: 22px;
+    font-weight: 700;
+}
+.card-img {
+    width: 270px;
+    height: 322px;
+}
 
-
-
-
-
+.btn-primary {
+   background-color: #E95A08;
+   color: white;
+   font-family: 'Inter', sans-serif;
+   width: 270px;
+   height: 50px;
+   border: none;
+   font-size: 16px;
+}
+.btn-primary:hover {
+    background-color: #8987A1;
+}
 /*nav responsive start from here*/
 
 
@@ -201,7 +269,61 @@
 
 
 
+@media (max-width: 767px) {
 
+
+    .card-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        
+    }
+    .our-plants-main-title {
+        width: 100%;
+        max-width: 390px;
+        height: 117px;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-plants-title {
+        font-size: 2rem;
+    }
+
+    .our-plants-paragraph {
+        font: 0.5rem;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        font-size: 0.8rem;
+        width:360px;
+        height: 68px;
+        
+    }
+
+
+
+.card {
+    width: 100%;
+    text-align: center;
+}
+
+
+.card-img,
+.btn-primary {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+}
+.btn-primary {
+    height: 50px;
+
+}
+
+
+}
 
 
 
