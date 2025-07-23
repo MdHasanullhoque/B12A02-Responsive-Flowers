@@ -1,0 +1,207 @@
+
+
+
+/*css start from here*/
+
+.navbar-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo {
+    width: 135px;
+    height: 82px;
+}
+
+.ancor-bar {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navbar-section ul li {
+    list-style: none;
+    text-align: center;
+    
+}
+.navbar-section ul li a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+.shopping-cart {
+    display: flex;
+    gap: 0px;
+}
+.home-link {
+    color: #252432;
+    font-weight: 900;
+
+}
+.shop-link  {
+    color: #8987A1;
+}
+.aboutus-link {
+    color: #8987A1;
+}
+.cart-56 {
+    color:#000000 ;
+}
+.shopping-cart {
+    list-style: none;
+    text-decoration: none;
+    gap: 10px;
+    margin-left: 10px;
+}
+.cart-56 {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+/*Banner start from here*/
+
+
+
+
+
+
+
+
+.banner-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 461px;
+    display: flex;
+    padding-top: 120px;
+}
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+.banner-title {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 65px;
+}
+.fresh {
+    color: #E95A08;
+}
+.banner-paragraph {
+    font-family: 'Inter', sans-serif;
+    width: 570px;
+    height: 108px;
+    font-size: 22px;
+    color: #8987A1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*nav responsive start from here*/
+
+
+
+
+
+
+@media (max-width: 767px) { 
+
+.navbar-section {
+    padding: 15px;
+}
+
+.logo {
+    width: 100px;
+    height: 82px;
+
+}
+
+.home-link,
+ .shop-link, 
+ .aboutus-link {
+    display:none;
+}
+ 
+.shopping-cart, .cart-56 {
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+/*banner- responsive start from here*/
+
+
+
+
+
+
+
+
+
+
+.banner-section {
+    flex-direction: column-reverse;
+}
+
+.banner-img {
+    height: 250px;
+    object-fit: cover;
+}
+.banner-img {
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.banner-img {
+  display: flex;
+
+}
+
+.banner-text-section {
+     padding-left: 16px;
+     padding-right: 16px;
+}
+
+.banner-title {
+    font-size: 1.65rem;
+    width: 310px;
+    height: 66px;
+    padding-bottom: 10px;
+}
+
+
+.banner-paragraph {
+    font-size: 0.8rem;
+    width:360px;
+    height: 68px;
+}
+
+
+ }
+
+
+
+
+
+
+
