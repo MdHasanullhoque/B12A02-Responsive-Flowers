@@ -323,7 +323,7 @@ body {
 
  }
 
-
+/*card section responsive*/
 
 @media (max-width: 767px) {
 
@@ -381,5 +381,60 @@ body {
 
 }
 
+/*Our plants CARD ITEM*/
+
+@media (max-width: 767px) {
+.challange-part {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.plants-lover {
+    align-items: center;
+}
+.plants-lover-column-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+.circle-star {
+    display: none;
+}
+.hide-br {
+    display: none;
+}
+
+.flower-shop {
+}
+.lover-h1 {
+    font-size: 1.6rem;
+    text-align: center;
+}
+  .column-paragraph li {
+    width: 100%;
+    max-width: 340px;
+    font-size: 1rem;
+    
+  }
+
+  .column-paragraph li {
+    text-align: center;
+    margin-bottom: 20px;
+    word-break: break-word;
+    white-space: normal;
+  }
 
 
+ .flower-shop {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin-top: 50px;
+    margin: auto;
+    display: block;
+  }
+
+
+}
