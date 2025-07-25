@@ -1,5 +1,7 @@
 
-
+body {
+  overflow-x: hidden;
+}
 /*css start from here*/
 body {
     overflow-x: hidden;
@@ -112,7 +114,8 @@ body {
     margin: 0 auto;
 
     
-}.our-plants-main-title{
+}
+.our-plants-main-title{
     margin-bottom: 30px;
 }
 .card-section {
@@ -144,7 +147,7 @@ body {
 
 .card {
     text-align: center;
-    width: 100%;
+    width: 263px;
     margin-bottom: 10px;
 }
 .lily {
@@ -192,6 +195,7 @@ body {
     padding-top: 200px;
     display: flex;
     gap: 50px;
+    margin-bottom: 100px;
 }
 
 .plants-lover {
@@ -226,18 +230,27 @@ body {
 }
 .column-paragraph {
     font-family: 'Inter', sans-serif;
-    font-size: 19px;
-    width: 540px;
-    height: 100px;
+    font-size: 18px;
+    width: 100%;
+    height: 150px;
 }
 .column-paragraph li {
     margin-bottom: 20px;
-    width: 530px;
-    height: 90px;
+    width: 100%;
+    height: 100px;
     color: #8987A1;
 }
 
 /*our-plants-picture section*/
+
+.plants-lover-part {
+    max-width: 1140px;
+    margin:60px auto 0 auto;
+    clear: both;
+    position: relative;
+    z-index: 1;
+   
+}
 .our-deals-headings {
     margin-top: 133px;
     margin-bottom: 100px;
@@ -250,13 +263,10 @@ body {
     font-weight: bold;
 }
 .plants-lover-heading-p {
-    font-size: 22px;
+    
 
 }
-.plants-lover-part {
-    max-width: 1140px;
-    margin: 0 auto;
-}
+
 
 .our-plants-grid-pic-section {
     display: flex;
@@ -266,6 +276,7 @@ body {
 }
 
 .column-pics {
+    display: flex;
     flex-direction: column;
 }
 
@@ -329,7 +340,7 @@ body {
   width: 100%;
   height: auto;
   border-radius: 10px;
-  filter: blur(1x);
+  filter: blur(1px);
 }
 
 .image-grid-2-title {
@@ -369,6 +380,9 @@ body {
 
 
 .zabo-img {
+    width: 100%;
+    height: auto;
+    display: block;
     border-radius: 10px;
     filter: blur(1px);
 }
@@ -398,6 +412,119 @@ body {
 }
 
 
+
+
+
+
+
+/*fotter start from here*/
+
+.footer-img-section {
+    background-image: url(./assets/news-letter-bg.png);
+    height: 500px;
+    width: 100%;            
+    max-width: 1440px;       
+    margin: 50px auto 0 auto; 
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+  }
+
+
+.overlay-all {
+    align-items: center;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    color: white;
+}
+
+.text-h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+
+.subscribe-form {
+  display: flex;
+}
+
+
+.subscribe-form input[type="email"] {
+  flex: 1;
+  padding: 12px 15px;
+  border: none;
+  font-size: 1rem;
+}
+
+
+.subscribe-form button {
+  background-color: #ff5700;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscribe-form button:hover {
+  background-color: #e64e00;
+}
+
+
+
+/*footer down*/
+
+.footer-down {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.footer-parag {
+    color: #8987A1;
+}
+
+.input-ancor-buttons ul {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;             
+  list-style: none;       
+  padding: 0;
+  margin: 0;
+  color: #8987A1;
+}
+
+.input-ancor-buttons li a {
+  text-decoration: none;
+color: #8987A1;
+}
+
+.lists-items ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #8987A1;
+}
+
+.brand-logo {
+    display: flex;
+    gap: 30px;
+    
+}
 
 
 
@@ -534,15 +661,15 @@ body {
 .card {
     width: 100%;
     text-align: center;
+    justify-content: center;
 }
 
 
 .card-img,
 .btn-primary {
     width: 100%;
-    max-width: 100%;
     height: auto;
-
+    display: block;
 }
 .btn-primary {
     height: 50px;
@@ -559,8 +686,7 @@ body {
     flex-direction: column;
     text-align: center;
     padding: 0 15px;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    position: relative;
 }
 .plants-lover {
     align-items: center;
@@ -584,16 +710,15 @@ body {
     text-align: center;
 }
   .column-paragraph li {
-    width: 100%;
-    max-width: 340px;
-    font-size: 1rem;
+    max-width: 200px;
+    font-size: 0.75rem;
     
   }
 
   .column-paragraph li {
     text-align: center;
-    margin-bottom: 20px;
-    word-break: break-word;
+    margin: 0 auto;
+    padding-right: 50px;
     white-space: normal;
   }
 
@@ -609,3 +734,138 @@ body {
 
 
 }
+
+
+
+
+@media (max-width: 767px) {
+
+
+.plants-lover-part {
+    padding: 80px 16px 60px 16px;
+}
+.our-deals-headings {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.our-deals-color-title {
+    font-size: 1rem;
+
+}
+.plants-lover-heading-p {
+    color: #8987A1;
+    font-size: 0.85rem;
+    line-height: 1;
+    max-width: 300px;
+    margin: 0 auto;
+
+}
+.our-plants-grid-pic-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.column-pics,
+.ana-plants,
+.bloom-plant,
+.zabo-column-pics {
+    width: 100%;
+    max-width: 350px;
+    position: relative;
+}
+
+.bloom-plant img,
+.ana-plants img,
+.zabo-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    filter: blur(1px);
+    display: block;
+}
+
+
+  .text-overlay,
+  .text-overlay-2,
+  .text-overlay-3 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    padding: 0 10px;
+  }
+
+  .image-grid-1-title,
+  .image-grid-2-title,
+  .image-grid-3-title {
+    font-size: 1rem;
+    font-family: 'Noto Serif', serif;
+  }
+
+  .image-grid-1-paragraph,
+  .image-grid-2-paragraph,
+  .image-grid-3-paragraph {
+    font-size: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    margin-top: 4px;
+  }
+
+}
+
+  
+/**/
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+   .footer-img-section {
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+  .subscribe-form input[type="email"],
+  .subscribe-form button {
+    width: 100px;
+    font-size: 0.6rem;
+  }
+
+  .subscribe-form button {
+    padding: 12px;}
+
+.text-h2 {
+    font-size: 0.9rem
+}
+
+
+.footer-down {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: flex-start;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+}
+
+
+
+
+
+
