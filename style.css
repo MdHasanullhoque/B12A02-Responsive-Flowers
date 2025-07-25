@@ -236,6 +236,177 @@ body {
     height: 90px;
     color: #8987A1;
 }
+
+/*our-plants-picture section*/
+.our-deals-headings {
+    margin-top: 133px;
+    margin-bottom: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.our-deals-color-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+.plants-lover-heading-p {
+    font-size: 22px;
+
+}
+.plants-lover-part {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.our-plants-grid-pic-section {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+
+}
+
+.column-pics {
+    flex-direction: column;
+}
+
+.ana-plants {
+    margin-top: 20px;
+}
+
+.bloom-plant {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+} 
+
+.bloom-plant img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  filter: blur(1px);
+}
+.text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    text-align: center;
+    color: aliceblue;
+    
+
+}
+
+
+.image-grid-1-link {
+  font-size: 18px;
+  padding: 6px 14px;
+  color: white;
+}
+.image-grid-1-title {
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+}
+.image-grid-1-paragraph {
+    font-family: 'Inter', sans-serif;
+  top: 50%;
+  font-size: 18px;
+  padding: 6px 10px;
+  color: aliceblue;
+}
+
+
+
+
+
+
+
+
+.ana-plants {
+  position: relative;
+  
+}
+.ana-plants img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  filter: blur(1x);
+}
+
+.image-grid-2-title {
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+}
+
+.text-overlay-2 {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    text-align: center;
+
+
+}
+
+.image-grid-2-paragraph {
+     font-family: 'Inter', sans-serif;
+    
+    text-align: center;
+  top: 50%;
+  font-size: 18px;
+  padding: 6px 10px;
+  color: white;
+}
+
+
+
+
+
+
+.zabo-column-pics {
+    position: relative;
+}
+
+
+
+.zabo-img {
+    border-radius: 10px;
+    filter: blur(1px);
+}
+.text-overlay-3 {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 29%;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.image-grid-3-title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+    
+}
+.image-grid-3-paragraph {
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+  top: 50%;
+  font-size: 20px;
+  padding: 6px 6px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*nav responsive start from here*/
 
 
